@@ -1,3 +1,4 @@
+
 MENU = {
     "espresso": {
         "ingredients": {
@@ -38,7 +39,7 @@ p = 0.01
 
 while (1):
 
-    ch = input("What would you like espresso/latte/cappuccino: ")
+    ch = input("What would you like espresso / latte / cappuccino: ")
 
     if ch == "report":
         print(resources)
